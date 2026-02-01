@@ -1,0 +1,21 @@
+{
+  "name": "openclaw-audio-proxy",
+  "version": "0.1.0",
+  "description": "Local-only OpenAI /audio/transcriptions compatibility proxy backed by OpenRouter chat/completions (input_audio)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "openclaw",
+    "openrouter",
+    "transcription",
+    "audio",
+    "telegram"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "busboy": "^1.6.0"
+  }
+}
